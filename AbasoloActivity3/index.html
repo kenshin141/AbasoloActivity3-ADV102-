@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Data Fetcher</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>User Directory</h1>
+            <p>Fetching data from JSONPlaceholder API</p>
+        </header>
+        
+        <main>
+            <button id="fetchUsers" class="fetch-btn">Fetch Users</button>
+            <div id="loading" class="loading hidden">Loading users...</div>
+            <div id="error" class="error hidden"></div>
+            <div id="userList" class="user-list"></div>
+        </main>
+        
+        <footer>
+            <p>Data source: <a href="https://jsonplaceholder.typicode.com" target="_blank">JSONPlaceholder</a></p>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
